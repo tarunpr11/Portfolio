@@ -7,6 +7,7 @@ import TechStack from "./components/TechStack";
 import Leadership from "./components/Leadership";
 import Projects from "./components/Projects";
 import Certifications from "./components/Certifications";
+import Contact from "./components/Contact";
 
 export default function App() {
   return (
@@ -30,6 +31,9 @@ export default function App() {
         </div>
         <div>
           <Certifications />
+        </div>
+        <div>
+          <Contact />
         </div>
       </div>
     </div>
