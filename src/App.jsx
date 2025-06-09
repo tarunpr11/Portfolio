@@ -17,24 +17,25 @@ export default function App() {
         <div className="my-5">
           <Navbar />
         </div>
-        <div>
+        <div id="about">
           <Hero />
         </div>
-        <div>
+        <div id="tech">
           <TechStack />
         </div>
-        <div>
+        <div id="leadership">
           <Leadership />
         </div>
-        <div>
+        <div id="projects">
           <Projects />
         </div>
-        <div>
+        <div id="certifications">
           <Certifications />
         </div>
-        <div>
+        <div id="contact">
           <Contact />
         </div>
+        <p className="text-center font-lexend text-white">&copy; Tarun Parthiban 2025</p>
       </div>
     </div>
   );

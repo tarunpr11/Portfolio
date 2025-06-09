@@ -16,12 +16,18 @@ const Hero = () => {
             <p>EMBEDDED SYSTEMS ENTHUSIAST.</p>
           </div>
           <div>
-            <img src='./images/linkedin.webp' alt='LinkedIn' className='w-10 h-10 inline-block' />
-            <img src='./images/github.webp' alt='LinkedIn' className='w-10 h-10 inline-block mx-10' />
-            <img src='./images/leetcode.webp' alt='LinkedIn' className='w-14 h-10 inline-block' />
+            <a href='https://linkedin.com/in/tarun-parthiban-67927b253' target='_blank' rel='noopener noreferrer'>
+              <img src='./images/linkedin.webp' alt='LinkedIn' className='w-10 h-10 inline-block transform transition-transform duration-300 hover:-translate-y-1' />
+            </a>
+            <a href='https://github.com/tarunpr11' target='_blank' rel='noopener noreferrer'>
+              <img src='./images/github.webp' alt='GitHub' className='w-10 h-10 inline-block mx-10 transform transition-transform duration-300 hover:-translate-y-1' />
+            </a>
+            <a href='https://leetcode.com/u/jxJXPFN0cz/' target='_blank' rel='noopener noreferrer'>
+              <img src='./images/leetcode.webp' alt='LeetCode' className='w-14 h-10 inline-block transform transition-transform duration-300 hover:-translate-y-1' />
+            </a>
           </div>
           <p className='underline my-3'>
-            <a href=''>Here's my resume</a>
+            <a href='https://drive.google.com/file/d/1HJvCwIQkmpXvdUNKh3EmAwSpJHxVO62o/view?usp=sharing' target='_blank'>Here's my resume</a>
           </p>
 
         </div>
