@@ -8,23 +8,23 @@ gsap.registerPlugin(ScrollTrigger);
 
 const experiences = [
   {
-    title: "AI Club, VIT Chennai",
+    title: "DeepCure – Startup",
     role: "Technical Lead",
-    year: "2024 – 2025",
+    year: "2022 – 2023",
   },
   {
-    title: "TechnoVIT ‘24",
-    role: "Central Committee Head\nCertificate & Prize Dept.",
-    year: "2024",
+    title: "VitaData",
+    role: "Frontend Lead – Intern",
+    year: "2025",
   },
   {
-    title: "Vibrance ‘25",
-    role: "Website Committee Head",
+    title: "T-Systems ICT (Deutsche Telekom)",
+    role: "AI Intern",
     year: "2025",
   },
 ];
 
-const ExperienceTimeline = () => {
+const WorkTimeline = () => {
   const cardsRef = useRef([]);
 
   useEffect(() => {
@@ -86,4 +86,4 @@ return (
 );
 };
 
-export default ExperienceTimeline;
+export default WorkTimeline;

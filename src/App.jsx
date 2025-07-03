@@ -8,6 +8,7 @@ import Leadership from "./components/Leadership";
 import Projects from "./components/Projects";
 import Certifications from "./components/Certifications";
 import Contact from "./components/Contact";
+import Experience from "./components/Experience";
 
 export default function App() {
   return (
@@ -25,6 +26,9 @@ export default function App() {
         </div>
         <div id="leadership">
           <Leadership />
+        </div>
+        <div id="experience">
+          <Experience />
         </div>
         <div id="projects">
           <Projects />
